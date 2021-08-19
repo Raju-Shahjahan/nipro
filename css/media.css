@@ -1,0 +1,445 @@
+ /* Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 374.98px) {
+
+    /* header start */
+    .logo {
+        font-size: 20px;
+    }
+    .menu ul li {
+        text-align: center;
+    }
+    .search {
+        text-align: center;
+    }
+    .s_down[data-bs-popper] {
+        top: 53px;
+        left: 45px;
+        margin-top: -8px;
+        height: 51px;
+    }
+    .c_header_control {
+        width: 150px;
+        height: 30px;
+        padding: 0 12px;
+    }
+    .search_submit {
+        margin-top: 21px;
+        font-size: 16px;
+    }
+    /* header send */
+
+    /* slides start */
+    .caro_text {
+        margin: 45px 0;
+        text-align: center;
+    }
+    .caro_text h1 {
+        font-size: 35px;
+    }
+    .caro_text p {
+        margin: 25px 0;
+        padding: 0;
+        line-height: 1.6rem;
+    }
+    .slider_btn {
+        padding: 5px 15px;
+    }
+    .caro_btn a {
+        font-size: 14px;
+    }
+    .cbp, .cbn {
+        bottom: -70px;
+        font-size: 14px;
+    }
+    /* slides end */
+
+    /* service start */
+    .service {
+        padding-bottom: 25px;
+    }
+    .service_single {
+        margin-bottom: 60px;
+    }
+    .line {
+        height: 30px;
+    }
+    .c_title {
+        margin-bottom: 50px;
+    }
+    .c_h1 {
+        font-size: 25px;
+    }
+    .Serv_parag p {
+        margin-top: 20px;
+        margin-bottom: 70px;
+    }
+    /* service end */
+
+    /* about start */
+    .ab_img img {
+        margin-bottom: 60px;
+    }
+    .ab_text {
+        text-align: center;
+    }
+    .ab_text h1 {
+        font-size: 25px;
+    }
+    .ab_text p {
+        margin: 15px 0;
+    }
+    .ab_btn {
+        margin-top: 45px;
+    }
+    /* about end */
+
+    /* choose start */
+    .ch_single {
+        text-align: center;
+    }
+    .h1 {
+        top: 55px;
+        left: 64px;
+    }
+    .ch_single p {
+        margin-top: 50px;
+        padding: 0px;
+    }
+    .ch_line {
+        text-align: center;
+        display: inline-block;
+        width: 164px;
+    }
+    /* choose end */
+
+    /* pricing start */
+    .price_single {
+        margin-bottom: 70px;
+    }
+    .price_btn a {
+        padding: 10px 35px;
+    }
+    /* pricing end */
+
+    /* buynow start */
+    .bn_txt h5 {
+        font-size: 16px;
+    }
+    /* buynow end */
+
+    /* contact start */
+    .contact_wrapper {
+        padding: 0px 25px;
+    }
+    .con_title h1 {
+        font-size: 20px;
+        width: 145px;
+        margin-top: -13px;
+    }
+    .c_control {
+        margin-top: 33px;
+    }
+    .c_control3 {
+        margin: 20px 0;
+    }
+    .c_control4 {
+        height: 80px;
+    }
+    /* contact end */
+
+    /* footer start */
+    .footer_bottom {
+        margin-top: 65px;
+    }
+    .footer_bottom p {
+        text-align: center;
+        font-size: 17px;
+    }
+    .f_menu {
+        text-align: center;
+    }
+    .footer_icon ul li a i {
+        width: 25px;
+    }
+    /* footer send */
+
+}
+
+
+
+ /* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px) {
+
+    /* header start */
+    .menu ul li {
+        text-align: center;
+    }
+    .search {
+        text-align: center;
+    }
+    .s_down[data-bs-popper] {
+        top: 46px;
+        left: 130px;
+        margin-top: 0.125rem;
+    }
+    /* header send */
+
+    /* slides start */
+    .caro_text {
+        margin: 80px 0;
+    }
+    .caro_text h1 {
+        font-size: 40px;
+    }
+    .caro_text p {
+        margin: 35px 0;
+    }
+    .cbp, .cbn {
+        bottom: -512px;
+    }
+    /* slides end */
+
+    /* service start */
+    .service_single {
+        margin-bottom: 100px;
+    }
+    .Serv_parag p {
+        margin-top: 0px;
+        margin-bottom: 85px;
+    }
+    .service_single {
+        margin-bottom: 100px;
+    }
+    /* service end */
+
+    /* about start */
+    .ab_img img {
+        margin-bottom: 75px;
+    }
+    .ab_text p {
+        margin: 15px 0;
+    }
+    .cbp, .cbn {
+        bottom: -156px;
+        font-size: 12px;
+    }
+    /* about end */
+
+    /* choose start */
+    .ch_single {
+        text-align: center;
+    }
+    .h1 {
+        top: 60px;
+        left: 173px;
+    }
+    .ch_single p {
+        margin-top: 50px;
+        padding: 0 60px;
+    }
+    .ch_line {
+        text-align: center;
+        display: inline-block;
+    }
+    /* choose end */
+
+    /* pricing start */
+    .price_single {
+        margin-bottom: 70px;
+    }
+    /* pricing end */
+
+    /* contact start */
+    .contact_wrapper {
+        padding: 0px 55px;
+    }
+    .c_control {
+        margin-top: 45px;
+    }
+    .c_control3 {
+        margin: 20px 0;
+    }
+    .c_control4 {
+        height: 80px;
+    }
+    /* contact end */
+
+    /* footer start */
+    .footer_bottom {
+        margin-top: 65px;
+    }
+    .footer_bottom p {
+        text-align: center;
+    }
+    .f_menu {
+        text-align: center;
+    }
+    /* footer send */
+
+
+}
+
+
+ /* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991.98px) {
+
+    /* header start */
+    .menu ul li {
+        text-align: center;
+    }
+    .search {
+        text-align: center;
+    }
+    .s_down[data-bs-popper] {
+        top: 46px;
+        left: 212px;
+        margin-top: 0.125rem;
+        padding: 7px 10px;
+    }
+    /* header send */
+
+    /* slides start */
+    .caro_text {
+        margin: 130px 0;
+    }
+    .caro_text h1 {
+        font-size: 45px;
+    }
+    .cbp, .cbn {
+        bottom: -250px;
+    }
+    /* slides end */
+
+    /* service start */
+    .service {
+        padding-bottom: 20px;
+    }
+    .Serv_parag p {
+        margin-top: 0px;
+        margin-bottom: 85px;
+    }
+    .service_single {
+        margin-bottom: 100px;
+    }
+    /* service end */
+
+    /* about start */
+    .ab_img img {
+        width: 360px;
+    }
+    .ab_text h1 {
+        font-size: 22px;
+    }
+    .ab_text p {
+        margin: 0px;
+        font-size: 14px;
+    }
+    .ab_btn {
+        margin-top: 20px;
+    }
+    .ab_btn a {
+        padding: 8px 15px;
+        font-size: 14px;
+    }
+    /* about end */
+
+    /* work start */
+    /* work end */
+
+    /* choose start */
+    .ch_line {
+        width: 294px;
+    }
+    /* choose end */
+
+    /* pricing start */
+    .price_single {
+        margin-bottom: 70px;
+    }
+    /* pricing end */
+
+    /* buy now start */
+    .bn_txt h5 {
+        text-align: center;
+    }
+    /* buy now end */
+
+    /* contact start */
+    .contact_wrapper {
+        padding: 0px 65px;
+    }
+    .c_control4 {
+        height: 80px;
+    }
+    /* contact end */
+
+    /* footer start */
+    .footer_bottom p {
+        font-size: 15px;
+    }
+    .f_menu ul li a {
+        margin-left: 0px;
+        font-size: 15px;
+    }
+    /* footer end */
+
+
+}
+
+
+ /* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199.98px) {
+    /* slider start */
+    .cbp {
+        bottom: -475px;
+    }
+    .cbn {
+        bottom: -475px;
+    }
+    /* slider end */
+
+    /* choose start */
+    .ch_line {
+        width: 290px;
+    }
+    /* choose end */
+
+    /* pricing start */
+    .price_list ul li {
+        margin-bottom: 10px;
+    }
+    .price_btn a {
+        padding: 9px 35px;
+    }
+    /* pricing end */
+
+    /* footer start */
+    .footer_icon ul li a i {
+        width: 27px;
+    }
+    /* footer end */
+
+
+}
+
+
+ /*Extra Large devices (desktops, 1200px and up) */
+@media (min-width: 1200px) and (max-width: 1399.98px) {
+    h1{
+        color: rgb(30, 255, 0);
+    }
+
+
+}
+
+
+
+
+ /* Extra Extra large devices (large desktops, 1400px and up) */
+@media (min-width: 1400px) {
+    h1{
+        color: red;
+    }
+
+
+}
